@@ -1,0 +1,16 @@
+.metadata/
+
+**/bin/
+**/target/
+*.log
+hs_err_pid*
+*.lock
+
+**/.settings/org.eclipse.core.resources.prefs
+**/.settings/org.eclipse.jdt.core.prefs
+**/.settings/org.eclipse.jdt.ui.prefs
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
