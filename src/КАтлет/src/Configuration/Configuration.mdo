@@ -39,4 +39,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Продавец</roles>
+  <roles>Role.Тренер</roles>
 </mdclass:Configuration>
