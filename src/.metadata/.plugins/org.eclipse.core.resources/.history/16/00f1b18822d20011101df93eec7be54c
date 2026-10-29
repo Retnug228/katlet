@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e955ef86-762c-4be7-9efd-f9dbc02f979c">
+  <name>КАтлет</name>
+  <synonym>
+    <key>ru</key>
+    <value>К атлет</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1d7315d9-c73f-4f30-8297-c8722cd8bf6a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="35fe0b28-7cc5-46d4-8917-9581429a6b3b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="edace614-07a5-4b96-b684-0017e3c98b9d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6e134639-5351-43fe-9519-795f696f7c50"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d02fb1c3-cf91-4e3a-9cdd-fd569c7bd684"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fbfe963a-8ed4-40df-80b5-cc57d7aff7a3"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="45894bee-9d23-48cb-a1b4-c577b684dc94"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="543abaf2-2370-4fbd-95b7-8a0987feee87">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.Бухгатлер</roles>
+  <roles>Role.Продавец</roles>
+  <roles>Role.Тренер</roles>
+  <commonModules>CommonModule.клОбщегоНазначенияКлиентСервер</commonModules>
+</mdclass:Configuration>
