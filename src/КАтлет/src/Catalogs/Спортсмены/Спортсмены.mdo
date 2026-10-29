@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="735f14e7-11fd-4c87-a6dc-4fa6939d8f05">
+  <producedTypes>
+    <objectType typeId="5c74f7e8-ce5b-4b96-bfdd-e847fd4bb9d7" valueTypeId="b44522d2-5dc2-4a59-a031-a784e1356331"/>
+    <refType typeId="0848b414-4832-49dc-b4d9-749c4480d94f" valueTypeId="8ffee460-3f71-4507-976e-1920876429db"/>
+    <selectionType typeId="f1f2b33d-2f8b-4f6a-b689-95f99a4a195a" valueTypeId="01674dd1-3086-4586-a078-02573eb7fd7b"/>
+    <listType typeId="582c14a2-17b7-4daf-ae52-2e13c57fabfb" valueTypeId="a09e78f4-b326-42e8-8f88-986ed38f9732"/>
+    <managerType typeId="f22787c4-2f8c-4a8b-8463-fb2e985e292c" valueTypeId="c4a33131-8650-4fa0-9c2b-1a297d310ddf"/>
+  </producedTypes>
+  <name>Спортсмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спортсмены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Спортсмены.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Спортсмены.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f540486c-b521-4294-bdb0-ed3137dc21e7">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

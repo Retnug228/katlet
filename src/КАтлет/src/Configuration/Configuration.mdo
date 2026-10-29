@@ -45,4 +45,5 @@
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Продавец</roles>
   <roles>Role.Тренер</roles>
+  <catalogs>Catalog.Спортсмены</catalogs>
 </mdclass:Configuration>
