@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e576bbc0-33f8-4d5a-b6ec-478f6a70e251">
+  <producedTypes>
+    <refType typeId="ad257fda-2aba-4cba-95d1-a7c541f9b853" valueTypeId="5814c8dd-df84-422b-b3e1-856aafd883dd"/>
+    <listType typeId="966d68e6-87bb-4237-ad16-abf2a8429ad1" valueTypeId="2a5f69bd-1e90-400d-a1bd-d6c9e739e3d7"/>
+    <managerType typeId="d694bc5c-0f33-4057-890f-c4b92d78a5da" valueTypeId="35cae57c-6186-4fa4-af5a-f5f7f6eacd1e"/>
+  </producedTypes>
+  <name>ВозрастныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастные группы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0c9294f-e394-49bd-a57a-8f4946a599f5">
+    <name>Детская</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детская</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70d3f1f6-128a-4104-bf01-cea14bb97a4a">
+    <name>Подростковая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подростковая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="322deb8b-a0c7-402d-b768-1d78fbd1220c">
+    <name>Взрослая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взрослая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

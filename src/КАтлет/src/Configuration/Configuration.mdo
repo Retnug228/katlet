@@ -45,4 +45,8 @@
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Продавец</roles>
   <roles>Role.Тренер</roles>
+  <catalogs>Catalog.ЗаконныеПредставители</catalogs>
+  <catalogs>Catalog.Спортсмены</catalogs>
+  <enums>Enum.ВидыДокументов</enums>
+  <enums>Enum.ВозрастныеГруппы</enums>
 </mdclass:Configuration>
