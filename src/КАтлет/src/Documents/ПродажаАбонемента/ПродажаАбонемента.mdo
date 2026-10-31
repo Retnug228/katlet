@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b649300-7239-4d4b-9462-1dd30339489a">
+  <producedTypes>
+    <objectType typeId="f4fded98-0fd3-4804-8c36-808fc42d9117" valueTypeId="8386b899-8fcc-48ce-8a97-15832895dc5e"/>
+    <refType typeId="01da95b7-fc4a-42c8-a936-2f03da232f57" valueTypeId="70de40a9-7cdb-43c2-9287-9b3c28e553ef"/>
+    <selectionType typeId="937f6da7-9c4d-49e9-b5ec-3a8cf7e2b37d" valueTypeId="8dadd051-9801-4ebe-9c6e-6506f9a5909d"/>
+    <listType typeId="a4afe648-cdd9-4f77-89d7-62f5a59fc5aa" valueTypeId="daf51e71-7855-45b2-922d-08aa2643d10d"/>
+    <managerType typeId="4c98bf7d-90ca-4e92-84c7-468650db3fd3" valueTypeId="50cce1b1-7f17-4d69-878c-00d29d502dcb"/>
+  </producedTypes>
+  <name>ПродажаАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа абонемента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПродажаАбонемента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
