@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Спортсмены</content>
+  <content>Catalog.ЗаконныеПредставители</content>
 </mdclass:Subsystem>
