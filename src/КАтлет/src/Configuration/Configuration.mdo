@@ -47,6 +47,8 @@
   <roles>Role.Тренер</roles>
   <catalogs>Catalog.ЗаконныеПредставители</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.Тренеры</catalogs>
+  <catalogs>Catalog.УслугиТренеров</catalogs>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
 </mdclass:Configuration>
