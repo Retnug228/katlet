@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="831ba87a-fde9-49d9-b542-bbbc3704f6a8">
+  <producedTypes>
+    <objectType typeId="a22607aa-0433-408e-a1f6-8b4661dc5fae" valueTypeId="9028720f-7510-4887-a9d8-7b7ae4814e42"/>
+    <refType typeId="61590177-5530-4acb-b000-9240258bbcbc" valueTypeId="eff08537-f348-476f-8ab3-5d26100a8566"/>
+    <selectionType typeId="5fd013f1-9a40-4b98-91a1-7d6c36192009" valueTypeId="fec300a5-3873-415d-b88e-c375d10036fd"/>
+    <listType typeId="4a031c56-2533-4f16-9ae5-3d12b981e828" valueTypeId="d71da28f-bcc4-433d-88f8-d3cba7b27608"/>
+    <managerType typeId="77378689-67ef-4270-b4e2-4d2818c33edb" valueTypeId="2736cd16-1668-4cac-9198-c7cc3db81b12"/>
+  </producedTypes>
+  <name>УслугиТренеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги тренеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УслугиТренеров.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УслугиТренеров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

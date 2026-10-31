@@ -9,4 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Спортсмены</content>
   <content>Catalog.ЗаконныеПредставители</content>
+  <content>Catalog.Тренеры</content>
+  <content>Catalog.УслугиТренеров</content>
 </mdclass:Subsystem>
