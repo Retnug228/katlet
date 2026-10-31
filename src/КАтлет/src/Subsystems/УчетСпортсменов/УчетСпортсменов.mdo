@@ -10,5 +10,9 @@
   <content>Catalog.Спортсмены</content>
   <content>Catalog.ЗаконныеПредставители</content>
   <content>Catalog.Тренеры</content>
-  <content>Catalog.УслугиТренеров</content>
+  <content>Catalog.СпортивныеГруппы</content>
+  <content>Catalog.КлубныеКарты</content>
+  <content>Catalog.ВидыАбонементов</content>
+  <content>Catalog.Кабинеты</content>
+  <content>Catalog.Услуги</content>
 </mdclass:Subsystem>

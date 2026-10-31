@@ -45,10 +45,16 @@
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Продавец</roles>
   <roles>Role.Тренер</roles>
+  <catalogs>Catalog.ВидыАбонементов</catalogs>
   <catalogs>Catalog.ЗаконныеПредставители</catalogs>
+  <catalogs>Catalog.Кабинеты</catalogs>
+  <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
-  <catalogs>Catalog.УслугиТренеров</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ПродажаАбонемента</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
+  <enums>Enum.ТипыАбонементов</enums>
 </mdclass:Configuration>
