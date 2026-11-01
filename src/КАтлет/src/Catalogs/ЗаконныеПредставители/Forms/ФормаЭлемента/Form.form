@@ -46,6 +46,7 @@
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
+    <readOnly>true</readOnly>
     <userVisible>
       <common>true</common>
     </userVisible>
@@ -104,11 +105,15 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ФамилияКонтекстноеМеню</name>
-      <id>8</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
+        <name>ФамилияКонтекстноеМеню</name>
+        <id>8</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <handlers>
+        <event>OnChange</event>
+        <name>ФИОПриИзменении</name>
+      </handlers>
+      <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -145,11 +150,15 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ИмяКонтекстноеМеню</name>
-      <id>11</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
+        <name>ИмяКонтекстноеМеню</name>
+        <id>11</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <handlers>
+        <event>OnChange</event>
+        <name>ФИОПриИзменении</name>
+      </handlers>
+      <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -186,11 +195,15 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ОтчествоКонтекстноеМеню</name>
-      <id>14</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
+        <name>ОтчествоКонтекстноеМеню</name>
+        <id>14</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <handlers>
+        <event>OnChange</event>
+        <name>ФИОПриИзменении</name>
+      </handlers>
+      <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
