@@ -152,12 +152,13 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>20</length>
+        <length>16</length>
       </stringQualifiers>
     </type>
+    <mask>+7(999)999 99 99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
