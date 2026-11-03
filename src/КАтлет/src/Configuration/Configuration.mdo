@@ -49,8 +49,10 @@
   <catalogs>Catalog.ЗаконныеПредставители</catalogs>
   <catalogs>Catalog.Кабинеты</catalogs>
   <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.ПродажаАбонемента</documents>
