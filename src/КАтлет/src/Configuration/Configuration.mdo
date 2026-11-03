@@ -40,11 +40,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <subsystems>Subsystem.УчётТоваров</subsystems>
   <roles>Role.Администратор</roles>
   <roles>Role.БазовыеПрава</roles>
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Продавец</roles>
   <roles>Role.Тренер</roles>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <catalogs>Catalog.ВидыАбонементов</catalogs>
   <catalogs>Catalog.ЗаконныеПредставители</catalogs>
   <catalogs>Catalog.Кабинеты</catalogs>
@@ -55,6 +57,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
