@@ -10,4 +10,5 @@
   <content>Catalog.Поставщики</content>
   <content>Catalog.Товары</content>
   <content>Document.ПриходТовара</content>
+  <content>Document.ПродажаТовара</content>
 </mdclass:Subsystem>

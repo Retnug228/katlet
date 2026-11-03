@@ -59,6 +59,7 @@
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
+  <documents>Document.ПродажаТовара</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
   <enums>Enum.ТипыАбонементов</enums>
