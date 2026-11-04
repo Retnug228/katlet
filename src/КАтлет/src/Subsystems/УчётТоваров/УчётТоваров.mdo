@@ -11,4 +11,5 @@
   <content>Catalog.Товары</content>
   <content>Document.ПриходТовара</content>
   <content>Document.ПродажаТовара</content>
+  <content>Document.Оплата</content>
 </mdclass:Subsystem>
