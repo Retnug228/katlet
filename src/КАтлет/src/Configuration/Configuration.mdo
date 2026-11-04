@@ -57,10 +57,13 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.Оплата</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
   <documents>Document.ПродажаТовара</documents>
   <enums>Enum.ВидыДокументов</enums>
+  <enums>Enum.ВидыДокументовОплаты</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
+  <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
 </mdclass:Configuration>
