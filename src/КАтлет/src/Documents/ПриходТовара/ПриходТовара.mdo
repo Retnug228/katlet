@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриходТовара.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="dc497828-e201-4be4-9619-00a56a00afcb">

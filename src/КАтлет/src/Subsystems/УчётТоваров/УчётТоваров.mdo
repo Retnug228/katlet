@@ -12,4 +12,7 @@
   <content>Document.ПриходТовара</content>
   <content>Document.ПродажаТовара</content>
   <content>Document.Оплата</content>
+  <content>Catalog.СтатьиДоходовИРасходов</content>
+  <content>Document.ПрочийРасход</content>
+  <content>Report.ДоходыИРасходы</content>
 </mdclass:Subsystem>

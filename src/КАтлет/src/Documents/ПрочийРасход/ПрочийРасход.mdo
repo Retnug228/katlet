@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9cd825c-3bde-4516-bcd0-c400b7a5ee9f">
+  <producedTypes>
+    <objectType typeId="6b87df5d-32e0-44bd-a7b7-6279fde90c11" valueTypeId="eaa1e6ae-74e3-482d-be7a-5657df8de762"/>
+    <refType typeId="3177a50c-7621-430d-89d0-96dcad1a6e4c" valueTypeId="0a7891e4-e87f-4bd2-97ea-9c99584fd392"/>
+    <selectionType typeId="56169484-e618-4123-8f16-e764dbb05681" valueTypeId="ccc9c442-ba21-4c51-9a95-42296058a57e"/>
+    <listType typeId="db5b2c71-9b3a-4e65-8b75-4a4c4b4bdf7c" valueTypeId="b8556fb0-4860-4dbe-b82f-cfe1dd5d69b1"/>
+    <managerType typeId="afe5de7d-aef6-4e81-85d7-db96ffe70b0b" valueTypeId="000ba38c-566d-4bdd-bfd6-edf580fc931a"/>
+  </producedTypes>
+  <name>ПрочийРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочий расход</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПрочийРасход.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c88e7ad9-a7c0-4371-b063-e8cb5624b5e9">
+    <name>СтатьяРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расхода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b256bb10-c69d-4782-9643-0594b0f805c2">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54de96aa-a193-4df7-95ce-ea54e3107e40">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
