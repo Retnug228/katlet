@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05e48b44-6102-43bb-92a2-8b03780d93f7">
+  <producedTypes>
+    <selectionType typeId="61110d94-37b7-453e-96ab-420c274cedb4" valueTypeId="51928d0d-1a09-41c3-9878-a54d9d66017e"/>
+    <listType typeId="390a5c8f-dafa-4ade-967a-f7e92c7743f0" valueTypeId="d7eb0842-dfe3-429a-b28d-370a15caab44"/>
+    <managerType typeId="5e0412e3-e2c4-4231-860b-20727dc04501" valueTypeId="614aa127-1739-4914-b41c-06e0575a6bc5"/>
+    <recordSetType typeId="db3728bd-1cb2-4e16-b1a0-9884976e2c7d" valueTypeId="138eda5a-4566-414c-bfda-f3c903a1a375"/>
+    <recordKeyType typeId="0fea6bf3-6b61-44cd-8002-15112668bd33" valueTypeId="052e8c7b-ab61-4687-8656-39daf8f4edd6"/>
+    <recordType typeId="9f72a161-3859-4584-8ed8-18ad5f114b9f" valueTypeId="59456039-0bc1-4e0c-9445-128b01d182ac"/>
+  </producedTypes>
+  <name>ДоходыИРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы и расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a632af74-6e82-4e37-b757-bd1dfccb27a3">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="13b01f90-164b-4209-bdd6-92ce935ed533">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="db1fc767-6ad4-4740-b758-0f604c3aa2dc">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыФинансовыхОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

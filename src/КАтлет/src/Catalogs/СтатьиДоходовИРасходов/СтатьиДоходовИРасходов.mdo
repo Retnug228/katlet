@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="596edb31-b5c2-407a-a94f-cbcbfdd292bd">
+  <producedTypes>
+    <objectType typeId="c1e36392-b255-4120-b0d9-f84416595934" valueTypeId="89ea7217-046b-4d16-be6d-bd561956ff96"/>
+    <refType typeId="276d4ee3-84f0-44df-9414-9d6aba18957d" valueTypeId="457def2f-487f-412d-8cc7-28d4eb0e24ab"/>
+    <selectionType typeId="520e3243-4391-4483-91df-994bfe678eb1" valueTypeId="96265974-0deb-4a28-9201-0eefa59f019e"/>
+    <listType typeId="e7aee5ca-dbd7-442d-aae2-99676a6f75fa" valueTypeId="401f65ad-0ec0-4537-baa2-433683b7ecec"/>
+    <managerType typeId="efaea1fc-af5d-4af3-850e-f9c6b36205de" valueTypeId="363daaca-6c44-4738-8072-a5de096c6042"/>
+  </producedTypes>
+  <name>СтатьиДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи доходов и расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДоходовИРасходов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиДоходовИРасходов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a7fd831a-27b2-4ef8-a0be-f40af1c7e87e">
+    <name>ВидФинансовойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид финансовой операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыФинансовыхОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

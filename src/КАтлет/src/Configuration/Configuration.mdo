@@ -54,6 +54,7 @@
   <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
@@ -61,9 +62,13 @@
   <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
   <documents>Document.ПродажаТовара</documents>
+  <documents>Document.ПрочийРасход</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВидыДокументовОплаты</enums>
+  <enums>Enum.ВидыФинансовыхОпераций</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
   <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
+  <reports>Report.ДоходыИРасходы</reports>
+  <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>
