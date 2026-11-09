@@ -15,4 +15,6 @@
   <content>Catalog.ВидыАбонементов</content>
   <content>Catalog.Кабинеты</content>
   <content>Catalog.Услуги</content>
+  <content>Document.РегистрацияВхода</content>
+  <content>InformationRegister.СтатусыАбонементов</content>
 </mdclass:Subsystem>
