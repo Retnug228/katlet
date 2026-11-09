@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43849520-a6e6-40b2-ac8d-c63a5650c867">
+  <producedTypes>
+    <objectType typeId="0d132da2-c1bc-4647-ae00-f4c93d892023" valueTypeId="b1f2da18-d5ff-4cf5-a645-ac3b27b9b96a"/>
+    <refType typeId="90b90e02-d33d-4359-8eb0-08598bc6d82d" valueTypeId="ec63c28b-4380-4c78-bbd1-d697c0bed93e"/>
+    <selectionType typeId="4b2edf5b-5603-42d9-bc2a-1d6a0656411f" valueTypeId="f30e3787-51c1-44b4-8c67-ce901e0e1d4d"/>
+    <listType typeId="3a578b8d-122e-42c4-8bca-2549f64d541e" valueTypeId="6156848d-d903-4c9c-8eeb-c32a39ea935f"/>
+    <managerType typeId="ce9e4748-ef27-416b-84ea-b58cf25a0b92" valueTypeId="fc94a675-6ec2-4615-8b3d-57326a033974"/>
+  </producedTypes>
+  <name>ЗаморозкаАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заморозка абонемента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаморозкаАбонемента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаморозкаАбонемента.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаморозкаАбонемента.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="30f22aba-6a5d-4320-b441-cce9742846dd">
+    <name>КодКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7dfdbd9-71d2-4087-91dc-019b7134c8dc">
+    <name>КлубнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клубная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлубныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a8ff8e6-f80c-4b1b-a0c0-93f6f19e8d19">
+    <name>Спортсмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спортсмен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спортсмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1b05c91-a0eb-4bc6-a133-1be82176e7c6">
+    <name>ДокументПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПродажаАбонемента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1974953-0849-415d-b882-c647f1b3cf76">
+    <name>НомерСтрокиАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки абонемента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b1dd68c-a3a9-4895-bffa-8137d420fada">
+    <name>ВидАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид абонемента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b777521c-19a9-40e0-b0c3-d84b43db4069">
+    <name>ДатаНачалаЗаморозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала заморозки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a242d6c4-88e2-4db3-a2ce-af894ca71797">
+    <name>ДатаОкончанияЗаморозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания заморозки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1dded001-9dfa-4111-80fa-250be28d6ab7">
+    <name>ДатаОкончанияДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4286240c-f8cd-47f5-9aae-1b4577822e0f">
+    <name>ДатаОкончанияПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания после</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cd9a671-82c6-4cec-ab13-4c4b8d0a009e">
+    <name>ДнейПродления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней продления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f1d905df-d6bf-4891-bfa5-8c08a322ed03">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdd7d2a4-70f7-4fec-b655-e005da578504">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

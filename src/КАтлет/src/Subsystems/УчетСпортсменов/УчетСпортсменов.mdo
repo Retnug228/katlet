@@ -16,5 +16,6 @@
   <content>Catalog.Кабинеты</content>
   <content>Catalog.Услуги</content>
   <content>Document.РегистрацияВхода</content>
+  <content>Document.ЗаморозкаАбонемента</content>
   <content>InformationRegister.СтатусыАбонементов</content>
 </mdclass:Subsystem>

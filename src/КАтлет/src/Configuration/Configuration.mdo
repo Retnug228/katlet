@@ -58,6 +58,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ЗаморозкаАбонемента</documents>
   <documents>Document.Оплата</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
