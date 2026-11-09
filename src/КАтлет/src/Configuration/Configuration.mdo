@@ -65,6 +65,7 @@
   <documents>Document.ПродажаТовара</documents>
   <documents>Document.ПрочийРасход</documents>
   <documents>Document.РегистрацияВхода</documents>
+  <documents>Document.УстановкаЦенУслуг</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВидыДокументовОплаты</enums>
   <enums>Enum.ВидыФинансовыхОпераций</enums>
@@ -73,5 +74,6 @@
   <enums>Enum.ТипыАбонементов</enums>
   <reports>Report.ДоходыИРасходы</reports>
   <informationRegisters>InformationRegister.СтатусыАбонементов</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dd7e959-5ced-4ed7-bb66-d4ed10753944">
+  <producedTypes>
+    <selectionType typeId="1e60054e-3812-4007-981d-4b4f0f399e90" valueTypeId="1571d8d4-4c09-4bbf-915f-8ed446e15e52"/>
+    <listType typeId="9f8fd6b0-21b2-467d-b962-13aefb1eddac" valueTypeId="176feb5b-eb32-49ac-96a9-11c9c31b275d"/>
+    <managerType typeId="77974571-d9da-44d9-a6d7-528f68dcf0b0" valueTypeId="c116f167-7deb-40d9-bcc3-5fce6d7030f3"/>
+    <recordSetType typeId="691465d8-bad9-498e-a568-15c52a4ef810" valueTypeId="65c656ce-f809-4474-b9a8-c0b96e47c620"/>
+    <recordKeyType typeId="8993b4a8-343b-4845-8271-1810612c9ea2" valueTypeId="02d141ea-f290-4358-a59e-f20f565c7476"/>
+    <recordType typeId="e08f665d-a9f3-4bdd-8c2f-9f2c3ac0cb29" valueTypeId="476a8e24-6319-4191-832c-a8976f016365"/>
+    <recordManagerType typeId="860e1978-7a5e-438e-a075-cd29ebca65f5" valueTypeId="c634ae85-76c5-4b31-974e-afe2e1790bb0"/>
+  </producedTypes>
+  <name>ЦеныУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="447a268b-7abf-4a40-a2bc-787d29bfba39">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5d7c5dd1-8e46-4cdf-8f1d-9578be5bde4a">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
