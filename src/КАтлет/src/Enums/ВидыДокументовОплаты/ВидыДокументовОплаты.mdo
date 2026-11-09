@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85f12646-71de-4737-b827-a4ea3b5562b5">
+  <producedTypes>
+    <refType typeId="9e87004f-b294-4a89-a346-11e61cc23536" valueTypeId="4f800e15-ceda-4f3c-bffb-1174b018efbc"/>
+    <listType typeId="53b4c693-7150-4079-9cca-f4f7d504b350" valueTypeId="2d355b63-160f-4ffc-9d94-0304909ad529"/>
+    <managerType typeId="167f39c8-fee4-4be3-b9c4-75ba4699db2b" valueTypeId="dbccfc17-2ac1-4ef4-ae12-e383d0db5d74"/>
+  </producedTypes>
+  <name>ВидыДокументовОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06bb6ea4-4845-4c29-b1d6-150c7daa1802">
+    <name>ПродажаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа товара</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb03a8c1-4d42-43f6-9759-80e35b034f01">
+    <name>ПродажаАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа абонемента</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

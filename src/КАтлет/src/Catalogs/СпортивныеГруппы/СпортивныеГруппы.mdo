@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e18a6b92-d092-46f0-9360-aac10e3544a0">
+  <producedTypes>
+    <objectType typeId="d5dc5114-87c9-4d48-acc5-592a6d6f7346" valueTypeId="88948e63-796e-4a9c-80c0-adc7a65c3c63"/>
+    <refType typeId="6b073af8-d30e-41ad-a1e7-72191d5006bb" valueTypeId="ce1341e6-a5f2-4114-b347-cd9e75523909"/>
+    <selectionType typeId="f3cf3cf4-c739-4b47-9cbd-1fcbf06f7a15" valueTypeId="fc00394c-9426-441f-bbe6-e531417cf07a"/>
+    <listType typeId="0c26238a-c43a-43da-866a-1135256210af" valueTypeId="b1841921-2a1f-4ab0-a8a5-7494ab2d8f5f"/>
+    <managerType typeId="529282c9-13d7-4787-a7ac-cba988e12630" valueTypeId="19000668-f587-4cab-99cb-360bb3e136ed"/>
+  </producedTypes>
+  <name>СпортивныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спортивные группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпортивныеГруппы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СпортивныеГруппы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпортивныеГруппы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СпортивныеГруппы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9c0fadad-15b4-47d3-b5b3-6cfd568bdaae">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e03c3b97-ea43-400b-a0fa-fb80378ef5ef">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тренеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fe3a18f-d679-4107-adad-202990557198">
+    <name>ВозрастнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастная группа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВозрастныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fddda7bd-fa5e-40dd-8867-cf03c68df9e7">
+    <producedTypes>
+      <objectType typeId="b739b3f5-e813-4103-b9a8-76f6ce29158a" valueTypeId="5f4b9904-e9a8-4535-a98d-73ac0ed47eeb"/>
+      <rowType typeId="f57feafa-0c42-4901-9b36-8eb9807a1c29" valueTypeId="5c32e7f5-5f57-40e7-8c6d-004a8296ff91"/>
+    </producedTypes>
+    <name>СписокСпортсменов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список спортсменов</value>
+    </synonym>
+    <attributes uuid="a9c78edc-f448-4b93-a411-ba5aa2403c2d">
+      <name>Спортсмен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спортсмен</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Спортсмены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="072fc241-3abe-47fd-bcbc-b5f83192ca5c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5662fbca-c27c-44dc-a5a3-6b5b14ea9d0d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

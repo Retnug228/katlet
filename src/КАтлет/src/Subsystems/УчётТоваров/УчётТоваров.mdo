@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62df9081-beee-44e3-a9c0-8e2d37b36b5f">
+  <name>УчётТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учёт товаров</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Поставщики</content>
+  <content>Catalog.Товары</content>
+  <content>Document.ПриходТовара</content>
+  <content>Document.ПродажаТовара</content>
+  <content>Document.Оплата</content>
+  <content>Catalog.СтатьиДоходовИРасходов</content>
+  <content>Document.ПрочийРасход</content>
+  <content>Report.ДоходыИРасходы</content>
+</mdclass:Subsystem>

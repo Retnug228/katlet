@@ -40,9 +40,38 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <subsystems>Subsystem.УчётТоваров</subsystems>
   <roles>Role.Администратор</roles>
   <roles>Role.БазовыеПрава</roles>
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Продавец</roles>
   <roles>Role.Тренер</roles>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <catalogs>Catalog.ВидыАбонементов</catalogs>
+  <catalogs>Catalog.ЗаконныеПредставители</catalogs>
+  <catalogs>Catalog.Кабинеты</catalogs>
+  <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.СпортивныеГруппы</catalogs>
+  <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Тренеры</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ЗаморозкаАбонемента</documents>
+  <documents>Document.Оплата</documents>
+  <documents>Document.ПриходТовара</documents>
+  <documents>Document.ПродажаАбонемента</documents>
+  <documents>Document.ПродажаТовара</documents>
+  <documents>Document.ПрочийРасход</documents>
+  <documents>Document.РегистрацияВхода</documents>
+  <enums>Enum.ВидыДокументов</enums>
+  <enums>Enum.ВидыДокументовОплаты</enums>
+  <enums>Enum.ВидыФинансовыхОпераций</enums>
+  <enums>Enum.ВозрастныеГруппы</enums>
+  <enums>Enum.СпособыОплаты</enums>
+  <enums>Enum.ТипыАбонементов</enums>
+  <reports>Report.ДоходыИРасходы</reports>
+  <informationRegisters>InformationRegister.СтатусыАбонементов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>

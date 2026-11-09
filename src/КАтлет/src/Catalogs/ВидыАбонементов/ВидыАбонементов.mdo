@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="818486ca-b967-4767-96ae-a89b4d1d333f">
+  <producedTypes>
+    <objectType typeId="51e523bc-c76d-495f-b237-8103a769fc28" valueTypeId="eeb3f265-6213-487a-9e3a-c60ab411de8e"/>
+    <refType typeId="2e47ef6b-70de-45ad-b9b5-c4314bfb4ca2" valueTypeId="449c26f9-fd6b-421c-bc7c-b35721e44bb4"/>
+    <selectionType typeId="02eaaaf2-c57a-48cb-8b19-6ea98a8d3a3c" valueTypeId="ef487127-4ad9-4062-b815-4d22062058d8"/>
+    <listType typeId="3a9a71c5-4f46-46b8-ac1e-4b16c26b302e" valueTypeId="81ff16b8-5ab6-4bef-ab1c-66e3bc6a5aaf"/>
+    <managerType typeId="d9ecde62-1d4e-458a-b679-bf286937cd66" valueTypeId="b2f6c59c-52eb-44d9-a59b-5a9a1d5bdce1"/>
+  </producedTypes>
+  <name>ВидыАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАбонементов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыАбонементов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыАбонементов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыАбонементов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="57097de6-67ad-4854-a058-a0c51fc35e27">
+    <name>ОграниченаДлительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничена длительность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7b6ba83-1e19-4c35-9650-bf3b2323f5b2">
+    <name>ДлительностьМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность месяцев</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fe3b706-9c4a-4a05-b2d4-d0245f55f5f9">
+    <name>ДлительностьДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ead1140-4b90-45ae-9cc8-2ed0adf480fc">
+    <name>ВозможностьЗаморозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможность заморозки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5daba7c-e44a-4f9f-938d-6e1a8962913f">
+    <name>КоличествоПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a562acc9-025c-48f5-b20b-947b1b544fdb">
+    <name>ТипАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип абонемента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06f77445-d551-4e46-9699-91a5630b4103">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="75d6ae28-0625-4fba-9f03-3cbd574e65b0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f8d77718-c144-4204-89ea-5853c9ab8b8e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -7,4 +7,15 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Спортсмены</content>
+  <content>Catalog.ЗаконныеПредставители</content>
+  <content>Catalog.Тренеры</content>
+  <content>Catalog.СпортивныеГруппы</content>
+  <content>Catalog.КлубныеКарты</content>
+  <content>Catalog.ВидыАбонементов</content>
+  <content>Catalog.Кабинеты</content>
+  <content>Catalog.Услуги</content>
+  <content>Document.РегистрацияВхода</content>
+  <content>Document.ЗаморозкаАбонемента</content>
+  <content>InformationRegister.СтатусыАбонементов</content>
 </mdclass:Subsystem>

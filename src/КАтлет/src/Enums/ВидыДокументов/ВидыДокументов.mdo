@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="342a97b6-ce54-404b-8adf-2c45865bca53">
+  <producedTypes>
+    <refType typeId="0b18cc6c-1c51-4cdc-8789-88948bbb9e04" valueTypeId="7201afad-4e01-4c56-a313-2e93132c9b96"/>
+    <listType typeId="0372c7d3-4a8e-4de3-8692-53f71404e9ab" valueTypeId="25b992a0-6229-49e0-b04a-655e07df51c5"/>
+    <managerType typeId="91a0e0de-42d3-4477-aedb-388a1dc1c17b" valueTypeId="a1c9cb4d-42b5-4aea-a077-db2d5f96fee2"/>
+  </producedTypes>
+  <name>ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2c6f627c-a6a5-4cb9-85b0-a8dadeb2f2f0">
+    <name>Паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc0da520-6c88-4897-8c42-a42040684c69">
+    <name>СвидетельствоОРождении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свидетельство о рождении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="373bb5e8-47b9-448d-a6ef-3f3c63c22714">
+    <name>ИнойДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иной документ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
