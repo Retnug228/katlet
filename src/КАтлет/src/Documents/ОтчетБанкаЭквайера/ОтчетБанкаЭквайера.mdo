@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bd615e2-0dbf-4d50-b20b-32600b486043">
+  <producedTypes>
+    <objectType typeId="32d50a18-54d5-4f9d-be78-cf342c87f016" valueTypeId="0fbcbc11-33ab-4383-8541-7ff1a177a51c"/>
+    <refType typeId="6506f908-8ae5-4551-80fc-d0607dd15f62" valueTypeId="0b8466eb-fb5e-48b3-9ac7-aa7fa92c6a0d"/>
+    <selectionType typeId="64702bfe-71c3-4201-8f2e-49b894aca531" valueTypeId="e9d3f0a4-711b-4d52-8101-f1fe2aa3d998"/>
+    <listType typeId="dd08e95d-c912-402e-a8ec-c3db48791a85" valueTypeId="ef54fac8-dd6b-4b7f-a31d-26c9c5955727"/>
+    <managerType typeId="bf85db75-fc09-46c2-8a33-fb70baa6ca69" valueTypeId="94607f76-7a39-4081-8a7a-1c710cf4a7ef"/>
+  </producedTypes>
+  <name>ОтчетБанкаЭквайера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет банка эквайера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтчетБанкаЭквайера.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="22858104-1ad6-4a7d-b784-5d8cd7e177dc">
+    <name>ОбщаяСуммаОплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая сумма оплат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="affeab1d-c484-4fe5-8bb7-3b4b99384c91">
+    <name>ОбщаяКомиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="520f2dec-23bb-413f-a04b-f5733d30d0ef">
+    <name>СуммаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма поступления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c6c7aac7-7a99-485e-a407-f5e438c49b5f">
+    <producedTypes>
+      <objectType typeId="7e813997-f7cd-4789-b329-104b25afb1af" valueTypeId="e2c89f88-ad11-410f-aea9-4933ded4016c"/>
+      <rowType typeId="ad12db25-0131-4500-a2b4-7acbb3a375f9" valueTypeId="116ca683-ead6-407c-88eb-8fd4e909e66d"/>
+    </producedTypes>
+    <name>ОплатыКартой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплаты картой</value>
+    </synonym>
+    <attributes uuid="01cad074-2444-4d67-880c-1c883e6119f9">
+      <name>Оплата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оплата</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Оплата</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

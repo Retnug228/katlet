@@ -15,4 +15,5 @@
   <content>Catalog.СтатьиДоходовИРасходов</content>
   <content>Document.ПрочийРасход</content>
   <content>Report.ДоходыИРасходы</content>
+  <content>Document.ОтчетБанкаЭквайера</content>
 </mdclass:Subsystem>
