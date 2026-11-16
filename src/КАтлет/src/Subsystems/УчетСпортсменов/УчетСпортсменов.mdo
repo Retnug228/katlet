@@ -15,6 +15,7 @@
   <content>Catalog.ВидыАбонементов</content>
   <content>Catalog.Кабинеты</content>
   <content>Catalog.Услуги</content>
+  <content>Document.ПродажаАбонемента</content>
   <content>Document.РегистрацияВхода</content>
   <content>Document.ЗаморозкаАбонемента</content>
   <content>InformationRegister.СтатусыАбонементов</content>

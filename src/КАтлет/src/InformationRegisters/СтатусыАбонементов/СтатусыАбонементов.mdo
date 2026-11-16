@@ -16,6 +16,10 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтатусыАбонементов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СтатусыАбонементов.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Nonperiodical</informationRegisterPeriodicity>
+  <writeMode>Independent</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <resources uuid="bbf695be-47db-45be-a871-d41bd1595c6a">
@@ -151,6 +155,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="6a44f1e2-3447-4414-a82f-ae2b2e190165">
+    <name>ДоступноеКоличествоЗаморозок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступное количество заморозок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="40ab7bae-c697-48a7-8e78-7ed37d3840f2">
     <name>ДокументПродажи</name>
     <synonym>
@@ -185,4 +206,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="598a9c2e-1e54-4396-afd5-9f457837ea2a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d569e5aa-7dc4-4557-9b5c-590795a69371">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
