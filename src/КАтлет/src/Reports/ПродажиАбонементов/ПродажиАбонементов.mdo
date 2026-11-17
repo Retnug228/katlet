@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa014b2f-1403-4a22-b3ee-c67c5772a5ae">
+  <producedTypes>
+    <objectType typeId="d81a5bad-fa4c-452d-a8a0-cc8d627b68c8" valueTypeId="115d38b7-5b89-4208-8d39-ad1a420f1fc3"/>
+    <managerType typeId="563a36ad-4e39-49cb-96cf-754b2418709e" valueTypeId="7f4d558e-bb9a-44fd-a69b-5e5d5fcc311e"/>
+  </producedTypes>
+  <name>ПродажиАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПродажиАбонементов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0a70e5e1-ee1a-4f17-bd21-f298a129f6e7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
