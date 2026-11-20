@@ -18,4 +18,5 @@
   <content>Document.ОтчетБанкаЭквайера</content>
   <content>Report.ПродажиТоваров</content>
   <content>Report.ПродажиАбонементов</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
 </mdclass:Subsystem>

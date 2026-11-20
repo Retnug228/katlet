@@ -79,4 +79,5 @@
   <informationRegisters>InformationRegister.СтатусыАбонементов</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>
