@@ -26,27 +26,42 @@
 			<dataPath>Сумма</dataPath>
 			<field>Сумма</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Администратор</dataPath>
+			<field>Администратор</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-    ПродажаТоваров.Ссылка.Дата КАК Дата,
-    ПродажаТоваров.Ссылка.Спортсмен КАК Спортсмен,
+    ПродажаТоваров.Ссылка.Администратор КАК Администратор,
     ПродажаТоваров.Товар КАК Товар,
+    ПродажаТоваров.Сумма КАК Сумма,
     ПродажаТоваров.Количество КАК Количество,
-    ПродажаТоваров.Сумма КАК Сумма
+    ПродажаТоваров.Ссылка.Дата КАК Дата,
+    ПродажаТоваров.Ссылка.Спортсмен КАК Спортсмен
+
 ИЗ
     Документ.ПродажаТовара.ПродажаТоваров КАК ПродажаТоваров
+
 ГДЕ
     ПродажаТоваров.Ссылка.Проведен</query>
 	</dataSet>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Администратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Товар</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
 					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
