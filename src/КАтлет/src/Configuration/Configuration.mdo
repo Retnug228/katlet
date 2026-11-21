@@ -74,6 +74,7 @@
   <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
   <reports>Report.ДоходыИРасходы</reports>
+  <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.ПродажиАбонементов</reports>
   <reports>Report.ПродажиТоваров</reports>
   <informationRegisters>InformationRegister.СтатусыАбонементов</informationRegisters>
