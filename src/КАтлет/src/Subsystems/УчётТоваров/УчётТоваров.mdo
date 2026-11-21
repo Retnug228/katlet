@@ -19,4 +19,5 @@
   <content>Report.ПродажиТоваров</content>
   <content>Report.ПродажиАбонементов</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>Report.ОстаткиТоваров</content>
 </mdclass:Subsystem>
