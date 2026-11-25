@@ -21,4 +21,5 @@
   <content>InformationRegister.СтатусыАбонементов</content>
   <content>InformationRegister.ЦеныУслуг</content>
   <content>Document.УстановкаЦенУслуг</content>
+  <content>InformationRegister.РасписаниеТренеров</content>
 </mdclass:Subsystem>
