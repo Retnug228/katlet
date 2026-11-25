@@ -13,8 +13,6 @@
     <value>Клубные карты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.КлубныеКарты.Attribute.НомерКарты</inputByString>
-  <inputByString>Catalog.КлубныеКарты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.КлубныеКарты.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
@@ -22,13 +20,12 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>50</descriptionLength>
+  <codeLength>12</codeLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultPresentation>AsDescription</defaultPresentation>
+  <defaultPresentation>AsCode</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.КлубныеКарты.Form.ФормаЭлемента</defaultObjectForm>
@@ -46,26 +43,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="6ea36791-3aa2-4a86-9ffe-df861155535c">
-    <name>НомерКарты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер карты</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue"/>
-    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
