@@ -302,6 +302,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Абонементы.ВидАбонемента</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>АбонементыВидАбонементаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>АбонементыВидАбонементаРасширеннаяПодсказка</name>
           <id>37</id>
@@ -343,6 +347,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Абонементы.КоличествоПосещений</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>АбонементыКоличествоПосещенийПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>АбонементыКоличествоПосещенийРасширеннаяПодсказка</name>
           <id>61</id>
@@ -494,6 +502,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Абонементы.Услуга</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>АбонементыУслугаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>АбонементыУслугаРасширеннаяПодсказка</name>
           <id>43</id>
