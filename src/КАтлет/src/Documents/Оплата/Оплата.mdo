@@ -115,4 +115,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="a8c3e1f2-4b7d-4e91-9c2a-6d8f0e1b5a74">
+    <name>Чек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек</value>
+    </synonym>
+    <templateType>SpreadsheetDocument</templateType>
+  </templates>
 </mdclass:Document>
