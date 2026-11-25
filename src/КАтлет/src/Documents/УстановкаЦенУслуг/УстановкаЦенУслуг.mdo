@@ -24,8 +24,8 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.УстановкаЦенУслуг.Form.ФормаУстановкаЦенУслуг</defaultObjectForm>
-  <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ЦеныУслуг</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <standardAttributes>
     <name>Date</name>
